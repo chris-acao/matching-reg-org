@@ -1,0 +1,14 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu_next"
+        android:title="Next"
+        android:icon="@drawable/next_icon"
+        app:showAsAction="always" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.app.SecondFragment"
+        android:label="Second"
+        tools:layout="@layout/fragment_second" />
+</menu>
